@@ -45,8 +45,8 @@
                         </article>
                         <article>
                             <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-                            <h3>🚧Computer Language🚧</h3>
-                            <p>C, C++, Python, Java 등 다양한 언어에 대한 <br> 기초 설명 및 도움 사이트를 정리해둔 아카이브</p>
+                            <h3>🚧Computer Language & Web🚧</h3>
+                            <p>C, C++, Python, Java 등 다양한 언어에 대한 <br> 다양한 궁금증, 사이트 게시 예정 <br>(기초는 포함되지 않음)</p>
                             <ul class="actions">
                                 <li><a href="#" class="button">More</a></li>
                             </ul>
@@ -54,7 +54,7 @@
                         <article>
                             <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
                             <h3>🚧Computer Architecture🚧</h3>
-                            <p></p>
+                            <p>🚧공사중🚧</p>
                             <ul class="actions">
                                 <li><a href="#" class="button">More</a></li>
                             </ul>
@@ -70,7 +70,7 @@
                         <article>
                             <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
                             <h3>🚧Network🚧</h3>
-                            <p></p>
+                            <p>🚧공사중🚧</p>
                             <ul class="actions">
                                 <li><a href="#" class="button">More</a></li>
                             </ul>

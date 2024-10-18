@@ -16,9 +16,9 @@
                 <h2>Menu</h2>
             </header>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./Menu/Profile.php">Profile</a></li>
-                <li><a href="./Menu/Reference.php">🚧Reference Site🚧</a></li>
+                <li><a href="/my_website/index.php">Home</a></li>
+                <li><a href="/my_website/Menu/Profile.php">Profile</a></li>
+                <li><a href="/my_website/Menu/Reference.php">Reference Site</a></li>
                 <li>
                     <span class="opener">🚧CS Languague & Web🚧</span>
                     <ul>
@@ -44,12 +44,12 @@
                 <li>
                     <span class="opener">DS</span>
                     <ul>
-                        <li><a href="#">Array</a></li>
-                        <li><a href="#">List</a></li>
-                        <li><a href="#">Stack</a></li>
-                        <li><a href="#">Queue</a></li>
-                        <li><a href="#">Tree</a></li>
-                        <li><a href="#">Graph</a></li>
+                        <li><a href="/my_website/Menu/DS/Array/Array.php">Array</a></li>
+                        <li><a href="/my_website/Menu/DS/List/List_Menu.php">List</a></li>
+                        <li><a href="/my_website/Menu/DS/Stack/Stack.php">Stack</a></li>
+                        <li><a href="/my_website/Menu/DS/Queue/Queue.php">🚧Queue🚧</a></li>
+                        <li><a href="/my_website/Menu/DS/">🚧Tree🚧</a></li>
+                        <li><a href="/my_website/Menu/DS/">🚧Graph🚧</a></li>
                     </ul>
                 </li>
                 <li>
@@ -72,7 +72,7 @@
                 </li>
                 <li><a href="#">🚧CS 관련 면접 & 정확히 알고 가기🚧</a></li>
                 <li>
-                    <span class="opener">Linux</span>
+                    <span class="opener">🚧Linux🚧</span>
                     <ul>
                         <li><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
@@ -80,6 +80,15 @@
                 </li>
                 <li>
                     <span class="opener">🚧Security🚧</span>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="opener">기타(개인용)</span>
                     <ul>
                         <li><a href="#">1</a></li>
                         <li><a href="#">2</a></li>

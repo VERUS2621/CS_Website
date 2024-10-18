@@ -10,6 +10,8 @@
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex; /* 플렉스 박스 사용 */
+    justify-content: center; /* 가로 방향 가운데 정렬 */
 
 		li {
 			display: inline-block;

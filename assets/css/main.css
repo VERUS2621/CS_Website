@@ -92,7 +92,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #7f888f;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'BlackHanSans', "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65; }
@@ -132,7 +132,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Hahmelt', "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -1397,45 +1397,66 @@ ul.contact {
 
 /* Pagination */
 ul.pagination {
+  display: flex; /* 플렉스 박스 사용 */
+  justify-content: center; /* 가로 방향 가운데 정렬 */
   cursor: default;
   list-style: none;
-  padding-left: 0; }
-  ul.pagination li {
-    display: inline-block;
-    padding-left: 0;
-    vertical-align: middle; }
-    ul.pagination li > .page {
-      -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-      -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-      -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-      border-bottom: 0;
-      border-radius: 0.375em;
-      display: inline-block;
-      font-size: 0.8em;
-      font-weight: 600;
-      height: 2em;
-      line-height: 2em;
-      margin: 0 0.125em;
-      min-width: 2em;
-      padding: 0 0.5em;
-      text-align: center; }
-      ul.pagination li > .page.active {
-        background-color: #f56a6a;
-        color: #ffffff !important; }
-        ul.pagination li > .page.active:hover {
-          background-color: #f67878; }
-        ul.pagination li > .page.active:active {
-          background-color: #f45c5c; }
-    ul.pagination li:first-child {
-      padding-right: 0.75em; }
-    ul.pagination li:last-child {
-      padding-left: 0.75em; }
-  @media screen and (max-width: 480px) {
-    ul.pagination li:nth-child(n+2):nth-last-child(n+2) {
-      display: none; }
-    ul.pagination li:first-child {
-      padding-right: 0; } }
+}
+
+ul.pagination li {
+  display: inline-block; /* 인라인 블록으로 설정 */
+  vertical-align: middle; /* 수직 정렬 */
+}
+
+ul.pagination li > .page {
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-bottom: 0; /* 하단 테두리 제거 */
+  border-radius: 0.475em; /* 둥근 모서리 */
+  display: inline-block; /* 인라인 블록으로 설정 */
+  font-size: 0.8em; /* 폰트 크기 */
+  font-weight: 600; /* 폰트 굵기 */
+  height: 3.5em; /* 높이 설정 */
+  line-height: 3.5em; /* 줄 높이 설정 */
+  margin: 0 0.125em; /* 좌우 간격 설정 */
+  min-width: 2em; /* 최소 너비 설정 */
+  padding: 0 0.5em; /* 좌우 패딩 설정 */
+  text-align: center; /* 가운데 정렬 */
+}
+
+ul.pagination li > .page.active {
+  background-color: #f56a6a; /* 활성 페이지 배경색 */
+  color: #ffffff !important; /* 활성 페이지 글자색 */
+  
+}
+
+ul.pagination li > .page.active:hover {
+  background-color: #f67878; /* 활성 페이지 호버 상태 배경색 */
+}
+
+ul.pagination li > .page.active:active {
+  background-color: #f45c5c; /* 활성 페이지 클릭 상태 배경색 */
+}
+
+ul.pagination li:first-child {
+  padding-right: 0.75em; /* 첫 번째 항목의 오른쪽 패딩 */
+}
+
+ul.pagination li:last-child {
+  padding-left: 0.75em; /* 마지막 항목의 왼쪽 패딩 */
+}
+
+@media screen and (max-width: 480px) {
+  ul.pagination li:nth-child(n+2):nth-last-child(n+2) {
+      display: none; /* 모바일에서 특정 항목 숨기기 */
+  }
+  ul.pagination li:first-child {
+      padding-right: 0; /* 첫 번째 항목의 오른쪽 패딩 제거 */
+  }
+}
+
 
 /* Table */
 .table-wrapper {
