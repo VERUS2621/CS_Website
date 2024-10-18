@@ -22,7 +22,7 @@
                 <!-- 절대 링크 수정 필요-->
 
                 <section>
-                    <h2>스택 (Stack)</h2>
+                    <h1 style="font-size:40px">스택 (Stack)</h1>
 
                     <p style="font-size:20px">
                         스택은 LIFO(Last - In - First - Out) 원칙을 따르는 선형 데이터 구조입니다.<br>
