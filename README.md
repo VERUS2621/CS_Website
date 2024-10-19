@@ -13,4 +13,8 @@ database 연결 후
 
 - Menu 링크 글이 많을 경우 페이지 넘김
 
+[사이트 바로가기](http://revrow2621.dothome.co.kr/my_website/index.php)
+
+http://revrow2621.dothome.co.kr/my_website/index.php
+
 
