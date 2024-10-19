@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <title>List_Menu</title>
+    <title>CS_InterView</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="../../../assets/css/main.css" /> <!-- 절대 링크 수정 필요-->
+    <link rel="stylesheet" href="../../assets/css/main.css" /> <!-- 절대 링크 수정 필요-->
     <style>
     ul.pagination {
   display: flex !important;
@@ -20,11 +20,11 @@
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <?php include '../../../header.php'; ?>
+                <?php include '../../header.php'; ?>
                 <!-- 절대 링크 수정 필요-->
 
                 <section>
-                    <h3>DS/List</h3>
+                    <h3>CS_InterView</h3>
                     <hr>
                     <h4>블로그 글 목록</h4>
                     <div class="table-wrapper">
@@ -37,21 +37,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>Verus</td>
-                                    <td><a href="List.php">List</a></td>
-                                    <td> - </td>
-                                </tr>
-                                <tr>
-                                    <td>Verus</td>
-                                    <td><a href="Linked_List.php">Linked List</a></td>
-                                    <td> - </td>
-                                </tr>
-                                <tr>
-                                    <td>Verus</td>
-                                    <td><a href="Linked_List_of_type.php">Linked List of type</a></td>
-                                    <td> - </td>
-                                </tr>
                             </tbody>
                         </table>
                 </section>
@@ -63,10 +48,10 @@
 
             </div>
         </div>
-        <?php include '../../../sidebar.php'; ?>
+        <?php include '../../sidebar.php'; ?>
         <!-- 절대 링크 수정 필요-->
     </div>
-    <?php include '../../../js.php'; ?>
+    <?php include '../../js.php'; ?>
 </body>
 
 </html>

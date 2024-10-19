@@ -16,6 +16,19 @@
                 <h2>Menu</h2>
             </header>
             <ul>
+                <li>
+                    <form method="post" action="/my_website/Login.php" style="display:flex;justify-content:center;">
+                        <input type="submit" value="로그인" class="button primary" style="width:300px; font-size:14px; font-family:Hahmelt"/>
+                    </form>
+                </li>
+                <li>
+                    <span class="opener">최근 게시물</span>
+                    <ul>
+                        <li><a href="#">게시물 제목 1</a></li>
+                        <li><a href="#">게시물 제목 2</a></li>
+                        <li><a href="#">게시물 제목 3</a></li>
+                    </ul>
+                </li>
                 <li><a href="/my_website/index.php">Home</a></li>
                 <li><a href="/my_website/Menu/Profile.php">Profile</a></li>
                 <li><a href="/my_website/Menu/Reference.php">Reference Site</a></li>
@@ -23,8 +36,7 @@
                     <span class="opener">🚧CS Languague & Web🚧</span>
                     <ul>
                         <li><a href="#">Python</a></li>
-                        <li><a href="#">HTML5</a></li>
-                        <li><a href="#">CSS3</a></li>
+                        <li><a href="#">HTML5/CSS3</a></li>
                         <li><a href="#">C</a></li>
                         <li><a href="#">C++</a></li>
                         <li><a href="#">java</a></li>
@@ -47,53 +59,36 @@
                         <li><a href="/my_website/Menu/DS/Array/Array.php">Array</a></li>
                         <li><a href="/my_website/Menu/DS/List/List_Menu.php">List</a></li>
                         <li><a href="/my_website/Menu/DS/Stack/Stack.php">Stack</a></li>
-                        <li><a href="/my_website/Menu/DS/Queue/Queue.php">🚧Queue🚧</a></li>
-                        <li><a href="/my_website/Menu/DS/">🚧Tree🚧</a></li>
-                        <li><a href="/my_website/Menu/DS/">🚧Graph🚧</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <span class="opener">🚧Sorting Algorithm🚧</span>
-                    <ul>
-                        <li><a href="#">Lorem Dolor</a></li>
-                        <li><a href="#">Ipsum Adipiscing</a></li>
-                        <li><a href="#">Tempus Magna</a></li>
-                        <li><a href="#">Feugiat Veroeros</a></li>
+                        <li><a href="/my_website/Menu/DS/Queue/Queue.php">Queue</a></li>
+                        <li><a href="/my_website/Menu/DS/Tree/Tree_Menu.php">🚧Tree🚧</a></li>
+                        <li><a href="/my_website/Menu/DS/Search/Search_Menu.php">🚧Search🚧</a></li>
+                        <li><a href="/my_website/Menu/DS/Graph/Graph_Menu.php">🚧Graph🚧</a></li>
+                        
                     </ul>
                 </li>
                 <li>
                     <span class="opener">🚧Algorithm🚧</span>
                     <ul>
-                        <li><a href="#">Lorem Dolor</a></li>
-                        <li><a href="#">Ipsum Adipiscing</a></li>
-                        <li><a href="#">Tempus Magna</a></li>
-                        <li><a href="#">Feugiat Veroeros</a></li>
+                        <li><a href="#">🚧</a></li>
                     </ul>
                 </li>
-                <li><a href="#">🚧CS 관련 면접 & 정확히 알고 가기🚧</a></li>
+                <li><a href="/my_website/Menu/interview/interview_Menu.php">CS 관련 면접 & 정확히 알고 가기</a></li>
                 <li>
                     <span class="opener">🚧Linux🚧</span>
                     <ul>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
+                        <li><a href="#">🚧</a></li>
                     </ul>
                 </li>
                 <li>
                     <span class="opener">🚧Security🚧</span>
                     <ul>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
+                        <li><a href="#">🚧</a></li>
                     </ul>
                 </li>
                 <li>
                     <span class="opener">기타(개인용)</span>
                     <ul>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
+                        <li><a href="/my_website/Secret/password.php">🔒</a></li>
                     </ul>
                 </li>
             </ul>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>연결 리스트(Linked List)</title>
+    <title>Linked List</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../../../assets/css/main.css" /> <!-- 절대 링크 수정 필요-->

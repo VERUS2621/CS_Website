@@ -2,17 +2,26 @@
 <html>
 
 <head>
-    <title>Generic - Editorial by HTML5 UP</title>
+    <title>Write_post</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" /> <!-- 절대 링크 수정 필요-->
+    <link rel="stylesheet" href="../assets/css/main.css" /> <!-- 절대 링크 수정 필요-->
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#demo-message',
+            plugins: 'lists link image code',
+            toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright | bullist numlist | link image | code',
+            height: 300 // 에디터 높이 조정
+        });
+    </script>
 </head>
 
 <body class="is-preload">
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <?php include 'header.php'; ?>
+                <?php include '../header.php'; ?>
                 <!-- 절대 링크 수정 필요-->
                 <section>
                     <!-- Form -->
@@ -27,10 +36,10 @@
                             <div class="col-12">
                                 <select name="demo-category" id="demo-category">
                                     <option value="">- Category -</option>
-                                    <option value="1">Manufacturing</option>
-                                    <option value="1">Shipping</option>
-                                    <option value="1">Administration</option>
-                                    <option value="1">Human Resources</option>
+                                    <option value="1">Algolithm</option>
+                                    <option value="2">CS_Lan_Web</option>
+                                    <option value="3">Tools</option>
+                                    <option value="4">기타(개인용)</option>
                                 </select>
                             </div>
                             <!-- Break -->
@@ -59,8 +68,8 @@
                             <!-- Break -->
                             <div class="col-12">
                                 <ul class="actions">
-                                    <li><input type="submit" value="Send Message" class="primary" /></li>
-                                    <li><input type="reset" value="Reset" /></li>
+                                    <li><input type="submit" value="글 작성" class="primary" /></li>
+                                    <li><input type="reset" value="초기화" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -69,7 +78,7 @@
 
             </div>
         </div>
-        <?php include 'sidebar.php'; ?>
+        <?php include '../sidebar.php'; ?>
         <!-- 절대 링크 수정 필요-->
     </div>
     <script src="assets/js/jquery.min.js"></script>

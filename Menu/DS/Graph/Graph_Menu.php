@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>List_Menu</title>
+    <title>Graph_Menu</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../../../assets/css/main.css" /> <!-- 절대 링크 수정 필요-->
@@ -25,7 +25,7 @@
 
                 <section>
                     <h3>DS/List</h3>
-                    <hr>
+
                     <h4>블로그 글 목록</h4>
                     <div class="table-wrapper">
                         <table>

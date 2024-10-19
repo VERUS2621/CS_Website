@@ -40,7 +40,7 @@
                             <h3>🚧Data-Structure🚧</h3>
                             <p> 컴퓨터의 기초적인 데이터 구조 / 자료를 어떻게 정리할 것인지 <br> 스택, 큐, 트리 등을 설명하는 아카이브</p>
                             <ul class="actions">
-                                <li><a href="#" class="button">바로가기</a></li>
+                                <li><a href="/my_website/Menu/DS/DS_main.php" class="button">바로가기</a></li>
                             </ul>
                         </article>
                         <article>
