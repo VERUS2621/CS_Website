@@ -17,4 +17,4 @@ database 연결 후
 
 http://revrow2621.dothome.co.kr/my_website/index.php
 
-
+-> 사이트는 완전히 기능이 완성 되면 adsecne 및 호스팅 예정
